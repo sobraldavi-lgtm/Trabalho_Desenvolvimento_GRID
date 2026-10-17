@@ -1,0 +1,274 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.etiqueta {
+    color: #d71920;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    display: block;
+    padding: 22px 6%;
+    min-height: 90px;
+    border-bottom: 1px solid #eeeeee;
+    background: #ffffff;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    color: #d71920;
+    vertical-align: middle;
+}
+
+.logo span {
+    color: #252525;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 8%;
+    vertical-align: middle;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d71920;
+}
+
+.botao {
+    display: inline-block;
+    padding: 13px 20px;
+    background: #d71920;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cabecalho > .botao {
+    float: right;
+}
+
+
+/* BANNER QUEBRADO */
+
+.banner {
+    display: block;
+    padding: 65px 7%;
+    background: #f6f3f0;
+    min-height: 600px;
+}
+
+.banner-texto {
+    display: block;
+    width: 65%;
+    margin-bottom: 45px;
+}
+
+.banner h1 {
+    width: 110%;
+    font-size: 46px;
+    line-height: 1.12;
+    margin-bottom: 20px;
+}
+
+.banner-texto > p:not(.etiqueta) {
+    width: 80%;
+    color: #666666;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.banner-img {
+    display: block;
+    width: 75%;
+    height: 360px;
+    object-fit: cover;
+    margin-left: 30%;
+    border-radius: 12px;
+}
+
+
+/* VITRINE */
+
+.vitrine {
+    display: block;
+    padding: 70px 6%;
+}
+
+.vitrine > .etiqueta {
+    text-align: center;
+}
+
+.vitrine h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+
+/* PRODUTOS SEM GRID */
+
+.produtos {
+    display: block;
+    width: 100%;
+}
+
+.card {
+    display: block;
+    width: 75%;
+    margin-left: 15%;
+    margin-bottom: 70px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: visible;
+}
+
+.card:nth-child(2) {
+    margin-left: -5%;
+    width: 90%;
+}
+
+.card:nth-child(3) {
+    margin-left: 25%;
+    width: 80%;
+}
+
+.card:nth-child(4) {
+    margin-left: 5%;
+    width: 100%;
+}
+
+.card img {
+    display: block;
+    width: 120%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card:nth-child(2) img {
+    height: 180px;
+    width: 90%;
+}
+
+.card:nth-child(3) img {
+    height: 380px;
+    width: 110%;
+}
+
+.card:nth-child(4) img {
+    height: 240px;
+    width: 130%;
+}
+
+.card-conteudo {
+    display: block;
+    padding: 22px;
+}
+
+.categoria {
+    color: #d71920;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.card h3 {
+    margin: 12px 0;
+    font-size: 23px;
+}
+
+.card p {
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.card strong {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+
+/* OFERTA */
+
+.oferta {
+    display: block;
+    padding: 55px 20px;
+    text-align: center;
+    color: #ffffff;
+    background: #d71920;
+}
+
+.oferta h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.oferta p {
+    margin-bottom: 25px;
+}
+
+.oferta .botao {
+    background: #ffffff;
+    color: #d71920;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    display: block;
+    padding: 40px 20px;
+    text-align: center;
+    background: #222222;
+    color: #ffffff;
+}
+
+footer p {
+    margin-top: 15px;
+    color: #cccccc;
+}
+
+footer .copyright {
+    margin-top: 25px;
+    font-size: 12px;
+}
